@@ -8,7 +8,7 @@
 ## Overview
 This repository contains Notebooks to generate a context for a natural language query interface. It uses LLM to translate users' query into a structure Looker query and display the results in Looker's Explore.
 
-<img src="https://github.com/Kriz182/looker-explore-assistant/blob/main/image1.git"  alt="Demo" >
+<img src="https://github.com/Kriz182/looker-explore-assistant/blob/main/image1.gif"  alt="Demo" >
 
 ## Prerequisites
 - Access to Google Cloud Platform (GCP) with Vertex AI Enabled.
