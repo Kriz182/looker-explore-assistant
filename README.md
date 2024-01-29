@@ -21,11 +21,12 @@ This repository contains Notebooks to generate a context for a natural language 
 
 ## How to Use
 1. **Clone the Repository**: Clone this repository to your local machine or directly into Google Cloud Shell.
-2. **Set up Vertex AI**: Ensure your GCP project is set up with Vertex AI.
-3. **Access to Looker**: Ensure you have access to a Looker instance and logged in. Private Embedding must be enabled as well.
-4. **Third Party Cookes** : Ensure you enable Third Party Cookies. 
-5. **Execute the Script**: Execute the first Notebook and copy the results. Execute the second Notebook, after pasting the results into the relevant variable *context*
-6. **View Results**: After execution, view the results for insights into the sentiment of the movie reviews.
+2. **Set up Vertex AI**: Ensure your GCP project is set up with Vertex AI (Enable the necessary APIs).
+3. 4. **Get API Access**: Ensure that you have created api keys to be used in the first Notebook.
+4. **Access to Looker**: Ensure you have access to a Looker instance and logged in. Private Embedding must be enabled as well.
+5. **Third Party Cookes** : Ensure you enable Third Party Cookies. 
+6. **Execute the Script**: Execute the first Notebook and copy the results. Execute the second Notebook, after pasting the results into the relevant variable *context*
+7. **View Results**: After execution, view the results for insights into the sentiment of the movie reviews.
 
 ## Additional Information
 - The Notebook comments provide guidance
