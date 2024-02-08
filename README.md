@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/Kriz182/looker-explore-assistant/blob/main/uc9.png" width="350" height="350" alt="Cool Logo" style="border-radius: 10px;">
+<img src="https://github.com/Kriz182/looker-explore-assistant/blob/main/static/uc9.png" width="350" height="350" alt="Cool Logo" style="border-radius: 10px;">
 </p>
 
 
@@ -8,29 +8,29 @@
 ## Overview
 This repository contains Notebooks to generate a context for a natural language query interface. It uses LLM to translate users' query into a structure Looker query and display the results in Looker's Explore.
 
-<img src="https://github.com/Kriz182/looker-explore-assistant/blob/main/image1.gif"  alt="Demo" >
+<img src="https://github.com/Kriz182/looker-explore-assistant/blob/main/static/image1.gif"  alt="Demo" >
 
 ## Prerequisites
 - Access to Google Cloud Platform (GCP) with Vertex AI Enabled.
 - Access to a Looker Instance.
 - Basic understanding of Looker's Explore Interface.
+- [Private Embedding enabled in the instance, same-origin disable and 3P cookies disabled] (https://cloud.google.com/looker/docs/private-embedding)
 
 ## Features
 - **Natural Language Query**: Query data in Looker using Natural Language
 - **Visualisation**: Define Visualisation to plot the data
 
 ## How to Use
-1. **Clone the Repository**: Clone this repository to your local machine or directly into Google Cloud Shell.
-2. **Set up Vertex AI**: Ensure your GCP project is set up with Vertex AI (Enable the necessary APIs).
-3. 4. **Get API Access**: Ensure that you have created api keys to be used in the first Notebook.
-4. **Access to Looker**: Ensure you have access to a Looker instance and logged in. Private Embedding must be enabled as well.
-5. **Third Party Cookes** : Ensure you enable Third Party Cookies. 
-6. **Execute the Script**: Execute the first Notebook and copy the results. Execute the second Notebook, after pasting the results into the relevant variable *context*
-7. **View Results**: After execution, view the results for insights into the sentiment of the movie reviews.
+1. **Clone the Repository or Download the Notebooks**: Clone this repository to your local machine or or just the Notebooks into your preferred environement.
+3. [**Looker Context Examples**:](https://github.com/Kriz182/looker-explore-assistant/blob/main/looker_context_examples.ipynb) : This Notebook generate the context and examples to be used as prompt to the LLM.
+   Ensure to copy the results and save them to be used later
+5. [**Explore Assistant Sandbox**](https://github.com/Kriz182/looker-explore-assistant/blob/main/explore_assistant_sandbox.ipynb): This Notebook run the sandbox environement using Gradio.
+   In the Notebook you need to paste the context and examples in the place holders. 
 
 ## Additional Information
-- The Notebook comments provide guidance
+- The Notebook comments provide guidance.
 - Modify the script as needed to suit your specific requirements or to analyze a different semnatic model.
+- Both Notebooks use [**Gradio**](https://www.gradio.app/) to setup the interface to interact with the script.
 
 
 ## License
