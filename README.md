@@ -14,7 +14,7 @@ This repository contains Notebooks to generate a context for a natural language 
 - Access to Google Cloud Platform (GCP) with Vertex AI Enabled.
 - Access to a Looker Instance.
 - Basic understanding of Looker's Explore Interface.
-- [Private Embedding enabled in the instance, same-origin disable and 3P cookies disabled] (https://cloud.google.com/looker/docs/private-embedding)
+- Private Embedding enabled in the instance, same-origin disable and 3P cookies disabled. [Review Looker's documentation](https://cloud.google.com/looker/docs/private-embedding)
 
 ## Features
 - **Natural Language Query**: Query data in Looker using Natural Language
