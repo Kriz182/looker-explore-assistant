@@ -1,3 +1,6 @@
+** This repos has been archived ** 
+** Go here for further info : https://github.com/LukaFontanilla/looker-explore-assistant ** 
+
 <p align="center">
 <img src="https://github.com/Kriz182/looker-explore-assistant/blob/main/static/uc9.png" width="350" height="350" alt="Cool Logo" style="border-radius: 10px;">
 </p>
